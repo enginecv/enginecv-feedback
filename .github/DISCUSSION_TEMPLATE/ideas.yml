@@ -1,0 +1,30 @@
+title: "[Idea]: "
+labels:
+  - idea
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for open-ended ideas, half-formed feature thoughts, or workflow suggestions that you don't want to file as a formal feature request yet.
+
+        For concrete, well-scoped feature requests, open an Issue with the **Feature request** template instead.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What are you imagining? Even a rough sketch is fine.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does this matter to you?
+      description: What problem or workflow gap is this idea addressing?
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Other notes (optional)
+      description: Links, references, prior art, or anything else useful.
